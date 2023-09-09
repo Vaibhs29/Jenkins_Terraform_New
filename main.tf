@@ -61,7 +61,7 @@ resource "aws_instance" "Myinstance" {
   subnet_id = aws_subnet.Subnet-1.id
 
   tags = {
-    Name="MyEC2Instant_Terraform_Jenkins"
+    Name="EC2 for poll_SCM"
   }
   
 }
